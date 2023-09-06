@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: 2px solid #333;
+  padding: 5rem;
+  background-color: #3333331f;
+  font-size: 5rem;
+  color: darkblue;
+}
+
+
+h2 {
+  padding: 1rem;
+  color: darkblue;
+  font-size: 2rem
+  
+  
+}
+
+body {
+  /* margin: 0.5rem; */
+  background-color: rgb(174, 174, 174);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  min-height: 200vh;
+  /* min-height: 100vh; */
+  margin: 0 auto;
+}
+
+.nav {
+  border: 2px solid #333;
+  background-color: antiquewhite;
+}
+
+li a {
+  display: block;
+  
+}
+
+li a,
+li a:visited {
+  text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+  background: #3333331f;
+  color: whitesmoke;
+  
+}
+
+/* .container {
+  display: flex;
+} */
+
+
+.about{
+  /* display: block; */
+  width: 25%;
+  float: left;
+  list-style: none;
+}
+
+.contact {
+  /* display: block; */
+  width: 25%;
+  float: right;
+}
+
+.project {
+  /* display: block; */
+  width: 50%;
+  float: left;
+}
+
+footer {
+  border: 2px solid #333;
+  padding: .1rem;
+  background-color: darkolivegreen;
+  font-size: 1.5rem;
+  text-align: center;
+  position: sticky; 
+  bottom: 0; 
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+  .nav {
+    border: 2px solid #333;
+    background-color: yellow;
+  }
+
+  header  {
+    font-size: 2rem;
+  }
+
+}
+  
+
+
+/* .container{
+
+  display: ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  /* background-color: beige;
+  border: 1px solid #333;
+  padding: 1rem; */
+  /* column-count: 3; */
+  /* display: block;  */
+  /* border: 2px solid black;
+  border-radius: 2rem;
+  font-size: 2rem; */
+    /* margin: 1rem; */
+/* } */
+/* 
+.nav {
+  border: 2px solid #333;
+  background-color: antiquewhite;
+}
+
+li a {
+  display: block;
+  
+}
+
+li a,
+li a:visited {
+  text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+  background: #3333331f;
+  color: whitesmoke;
+  
+}
+
+.column {
+  color: blue;
+} */
